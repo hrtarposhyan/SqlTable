@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using SqlTable.Attributes;
 
 namespace SqlTable.Models
 {
@@ -19,8 +15,8 @@ namespace SqlTable.Models
 
         public int? UniversityId { get; set; }
 
-        //[Ignore]
-        //public University University { get; set; }
+        [Ignore]
+        public University university { get; set; }
 
         public override string ToString()
         {
