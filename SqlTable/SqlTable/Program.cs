@@ -10,7 +10,7 @@ namespace SqlTable
     {
         static void Main(string[] args)
         {
-            vavvsh
+            
         }
     }
 }
